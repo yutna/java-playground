@@ -14,8 +14,8 @@ this project, make sure to install these tools before you begin.
 
 ## Book references
 
-Here is a list of what I have read, including examples and exercises I have 
-done, derived from these books.
+Here is a list of my readings, along with examples and exercises I have 
+completed, taken from these books.
 
 1. [Java: A Beginner's Guide, Tenth Edition][3]
 2. [Java: The Complete Reference, Thirteenth Edition][4]
