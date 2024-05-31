@@ -7,7 +7,7 @@ and records that I have kept.
 ## Prerequisite
 
 I use these tools when practicing Java. If you need to run any file examples in 
-this project, make sure to install these tools before you begin.
+this project, please ensure that these tools are installed before you begin.
 
 - [Java JDK Development Kit 21.0.3][0]
 - [IntelliJ IDEA Community Edition][1]
