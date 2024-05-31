@@ -1,7 +1,8 @@
 # Java Playground
 
-This is a self-learning Java programming language repository. I use this repo to
-practice Java and as a reference for future Java projects.
+Here is a repository for storing examples and exercises done while studying Java. 
+Besides serving as a backup, it is also used as a reference or to revisit notes 
+and records that I have kept.
 
 ## Prerequisite
 
@@ -13,7 +14,8 @@ this project, make sure to install these tools before you begin.
 
 ## Book references
 
-All code examples in this project that I learned came from these books.
+Here is a list of what I have read, including examples and exercises I have 
+done, derived from these books.
 
 1. [Java: A Beginner's Guide, Tenth Edition][3]
 2. [Java: The Complete Reference, Thirteenth Edition][4]
