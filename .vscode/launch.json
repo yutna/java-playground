@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NotDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.NotDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Encode",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.Encode",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "LowCase",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.LowCase",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ShowBits",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.ShowBits",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "UpCase",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.UpCase",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
             "name": "VarDemo3",
             "request": "launch",
             "mainClass": "xyz.yutna.books.abeginnersguide.ch5.VarDemo3",
