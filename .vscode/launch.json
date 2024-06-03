@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SelfTest21",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SelfTest21",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest17",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SelfTest17",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest13",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SelfTest13",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest7",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SelfTest7",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest6",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SelfTest6",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest4",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SelfTest4",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SelfTest3",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "NoZeroDiv2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.NoZeroDiv2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "NoZeroDiv",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.NoZeroDiv",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ShowBitsDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.ShowBitsDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ShiftDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.ShiftDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
             "name": "NotDemo",
             "request": "launch",
             "mainClass": "xyz.yutna.books.abeginnersguide.ch5.NotDemo",
