@@ -1,0 +1,779 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "VarDemo3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.VarDemo3",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "VarDemo2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.VarDemo2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "VarDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.VarDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Phone",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.Phone",
+            "args": "Mary",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "BlockDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.BlockDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.Example",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Example2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.Example2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Example3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.Example3",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ForDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.ForDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "GalToLit",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.GalToLit",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "GalToLitTable",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.GalToLitTable",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "IfDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.IfDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "InchesToMeters",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.InchesToMeters",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "MoonGravity",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch1.MoonGravity",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "BoolDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.BoolDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "CastDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.CastDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "CharArithDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.CharArithDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "DynInit",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.DynInit",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Hypot",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.Hypot",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Inches",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.Inches",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "LogicalOpTable",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.LogicalOpTable",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "LtoD",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.LtoD",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ModDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.ModDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "MyPrimeNumber",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.MyPrimeNumber",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "NestVar",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.NestVar",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.PrimeNumber",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "PromDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.PromDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "RelLogOps",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.RelLogOps",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SCops",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.SCops",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ScopeDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.ScopeDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SideEffects",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.SideEffects",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Sound",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.Sound",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "StrDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.StrDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "UseCast",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.UseCast",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "VarInitDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch2.VarInitDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Break2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Break2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Break3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Break3",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Break4",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Break4",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Break5",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Break5",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Break6",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Break6",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "BreakDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.BreakDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "BreakErr",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.BreakErr",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Comma",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Comma",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ContToLabel",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.ContToLabel",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "CountDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.CountDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "DWDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.DWDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "DecrFor",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.DecrFor",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Empty",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Empty",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Empty2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Empty2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Empty3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Empty3",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "FindFac",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.FindFac",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ForTest",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.ForTest",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ForVar",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.ForVar",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Guess",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Guess",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Guess2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Guess2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Guess3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Guess3",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Guess4",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Guess4",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Help",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Help",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Help2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Help2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Help3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Help3",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteLoop",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.InfiniteLoop",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "KbIn",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.KbIn",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Ladder",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Ladder",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "NoBreak",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.NoBreak",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Power",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.Power",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest1",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.SelfTest1",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest10",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.SelfTest10",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.SelfTest2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest4",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.SelfTest4",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest9",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.SelfTest9",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SqrRoot",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.SqrRoot",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SwitchDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.SwitchDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "WhileDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch3.WhileDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "AddMeth",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.AddMeth",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "CompFuel",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.CompFuel",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ConsDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.ConsDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "DemoPwr",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.DemoPwr",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "HelpClassDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.HelpClassDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "IsFact",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.IsFact",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ParmConsDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.ParmConsDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ParmDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.ParmDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "RetMeth",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.RetMeth",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "TwoVehicles",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.TwoVehicles",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "VehConsDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.VehConsDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "VehicleDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch4.VehicleDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ACopy",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.ACopy",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.ArrayDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ArrayErr",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.ArrayErr",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "AssignARef",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.AssignARef",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Bubble",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.Bubble",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "CLDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.CLDemo",
+            "args": "one two three",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ForEach",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.ForEach",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ForEach2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.ForEach2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "LengthDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.LengthDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "MinMax",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.MinMax",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "MinMax2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.MinMax2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "NoChange",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.NoChange",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "QDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.QDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Ragged",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.Ragged",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Search",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.Search",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Squares",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.Squares",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "StrOps",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.StrOps",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "StringArrays",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.StringArrays",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.StringDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "StringSwitch",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.StringSwitch",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SubStr",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SubStr",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "TextBlock",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.TextBlock",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "TwoD",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch5.TwoD",
+            "projectName": "java-playground_d1f0cc82"
+        }
+    ]
+}
