@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-public class IsFact {
+class IsFact {
     public static void main(String[] args) {
         Factor x = new Factor();
 

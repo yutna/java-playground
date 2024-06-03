@@ -6,7 +6,7 @@ package xyz.yutna.books.abeginnersguide.ch1;
  * Call this program "GalToListTable.java".
  */
 
-public class GalToLitTable {
+class GalToLitTable {
     public static void main(String[] args) {
         double gallons, liters;
         int counter;

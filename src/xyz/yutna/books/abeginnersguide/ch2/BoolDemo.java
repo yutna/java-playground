@@ -4,7 +4,7 @@ package xyz.yutna.books.abeginnersguide.ch2;
  * Demonstrate boolean values.
  */
 
-public class BoolDemo {
+class BoolDemo {
     public static void main(String[] args) {
         boolean b;
 

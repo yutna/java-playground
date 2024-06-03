@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // The body of a loop can be empty.
-public class Empty3 {
+class Empty3 {
     public static void main(String[] args) {
         int i;
         int sum = 0;

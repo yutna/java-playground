@@ -6,7 +6,7 @@ package xyz.yutna.books.abeginnersguide.ch1;
  * Call this program GalToLit.java.
  */
 
-public class GalToLit {
+class GalToLit {
     public static void main(String[] args) {
         double gallons; // holds the number of gallons
         double liters; // holds conversion to liters

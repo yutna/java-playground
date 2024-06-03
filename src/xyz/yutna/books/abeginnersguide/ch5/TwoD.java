@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Demonstrate a two-dimensional array.
-public class TwoD {
+class TwoD {
     public static void main(String[] args) {
         int t, i;
         int[][] table = new int[3][4];

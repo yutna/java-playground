@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-public class Pwr {
+class Pwr {
     double b;
     int e;
     double val;

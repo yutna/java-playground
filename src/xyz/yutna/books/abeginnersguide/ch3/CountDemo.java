@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Use continue
-public class CountDemo {
+class CountDemo {
     public static void main(String[] args) {
         int i;
 

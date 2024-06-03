@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-public class Help {
-    public void helpOn(char what) {
+class Help {
+    void helpOn(char what) {
         switch (what) {
             case '1':
                 System.out.println("The if:\n");
@@ -44,7 +44,7 @@ public class Help {
         System.out.println();
     }
 
-    public void showMenu() {
+    void showMenu() {
         System.out.println("Help on:");
         System.out.println("  1. if");
         System.out.println("  2. switch");
@@ -56,7 +56,7 @@ public class Help {
         System.out.print("Choose one (q to quit): ");
     }
 
-    public boolean isValid(char ch) {
+    boolean isValid(char ch) {
         return !((ch < '1') | (ch > '7') & (ch != 'q'));
     }
 }

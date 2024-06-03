@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Use for-each style for on a two-dimensional array.
-public class ForEach2 {
+class ForEach2 {
     public static void main(String[] args) {
         int sum = 0;
         int[][] numbers = new int[3][5];

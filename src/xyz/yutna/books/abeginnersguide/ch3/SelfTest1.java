@@ -6,7 +6,7 @@ package xyz.yutna.books.abeginnersguide.ch3;
  * the end of the program.
  */
 
-public class SelfTest1 {
+class SelfTest1 {
     public static void main(String[] args) throws java.io.IOException {
         char ch;
         int spaces = 0;

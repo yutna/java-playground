@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Another example of using break with a label.
-public class Break5 {
+class Break5 {
     public static void main(String[] args) {
         done:
             for (int i = 0; i < 10; i++) {

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Demonstrate the Queue class
-public class QDemo {
+class QDemo {
     public static void main(String[] args) {
         Queue bigQ = new Queue(100);
         Queue smallQ = new Queue(4);

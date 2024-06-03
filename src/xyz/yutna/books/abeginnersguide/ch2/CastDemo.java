@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate casting
-public class CastDemo {
+class CastDemo {
     public static void main(String[] args) {
         double x, y;
         byte b;

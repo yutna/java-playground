@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch1;
 
-public class InchesToMeters {
+class InchesToMeters {
     public static void main(String[] args) {
         double meters;
         int inches;

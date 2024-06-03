@@ -7,7 +7,7 @@ package xyz.yutna.books.abeginnersguide.ch2;
  * ** This program will NOT compile. **
  */
 
-public class NestVar {
+class NestVar {
     public static void main(String[] args) {
         int count;
 

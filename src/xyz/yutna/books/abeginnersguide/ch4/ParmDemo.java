@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-public class ParmDemo {
+class ParmDemo {
     public static void main(String[] args) {
         ChkNum e = new ChkNum();
 

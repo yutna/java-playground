@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch3;
  * An improved Help system that uses a do-while to process a menu selection.
  */
 
-public class Help2 {
+class Help2 {
     public static void main(String[] args) throws java.io.IOException {
         char choice, ignore;
 

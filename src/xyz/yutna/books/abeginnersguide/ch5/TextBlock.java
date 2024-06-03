@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Demonstrate a text block (new feature in JDK15)
-public class TextBlock {
+class TextBlock {
     public static void main(String[] args) {
         String str = """
         Text blocks make multiple lines easy because they eliminate

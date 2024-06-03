@@ -12,7 +12,7 @@ package xyz.yutna.books.abeginnersguide.ch3;
  */
 
 // Use continue with a label.
-public class ContToLabel {
+class ContToLabel {
     public static void main(String[] args) {
         outer: for (int i = 1; i < 10; i++) {
             System.out.print("\nOuter loop pass " + i + ", inner loop: ");

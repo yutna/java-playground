@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Where you put a label is important.
-public class Break6 {
+class Break6 {
     public static void main(String[] args) {
         int x = 0, y = 0;
 

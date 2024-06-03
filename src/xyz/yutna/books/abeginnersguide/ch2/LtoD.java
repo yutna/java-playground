@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate automatic conversion from long to double
-public class LtoD {
+class LtoD {
     public static void main(String[] args) {
         long L;
         double D;

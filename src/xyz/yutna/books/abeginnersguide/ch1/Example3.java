@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch1;
  * Call this file Example3.java
  */
 
-public class Example3 {
+class Example3 {
     public static void main(String[] args) {
         int v; // this declares an int variable
         double x; // this declares a floating-point variable

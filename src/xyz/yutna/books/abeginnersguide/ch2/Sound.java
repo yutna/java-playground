@@ -6,7 +6,7 @@ package xyz.yutna.books.abeginnersguide.ch2;
  * reach you.
  */
 
-public class Sound {
+class Sound {
     public static void main(String[] args) {
         double dist;
 

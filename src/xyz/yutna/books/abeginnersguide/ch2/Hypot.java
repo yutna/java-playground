@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch2;
  * lengths of the opposing sides.
  */
 
-public class Hypot {
+class Hypot {
     public static void main(String[] args) {
         double x, y, z;
 

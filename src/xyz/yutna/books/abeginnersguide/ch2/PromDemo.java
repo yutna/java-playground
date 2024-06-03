@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // A promotion surprise
-public class PromDemo {
+class PromDemo {
     public static void main(String[] args) {
         byte b;
         int i;

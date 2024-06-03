@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Try This 2-2: a truth table for the logical operators.
-public class LogicalOpTable {
+class LogicalOpTable {
     public static void main(String[] args) {
         boolean p, q;
 

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Demonstrate String arrays.
-public class StringArrays {
+class StringArrays {
     public static void main(String[] args) {
         String[] strs = { "This", "is", "a", "test." };
 

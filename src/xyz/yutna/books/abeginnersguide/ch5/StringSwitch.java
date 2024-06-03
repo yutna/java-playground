@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Use a string to control a switch statement.
-public class StringSwitch {
+class StringSwitch {
     public static void main(String[] args) {
         String command = "cancel";
 

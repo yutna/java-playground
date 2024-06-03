@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch3;
  * The finished Java statement Help system that processes multiple requests.
  */
 
-public class Help3 {
+class Help3 {
     public static void main(String[] args) throws java.io.IOException {
         char choice, ignore;
 

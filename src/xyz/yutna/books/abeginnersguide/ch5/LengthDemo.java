@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Use the length array member.
-public class LengthDemo {
+class LengthDemo {
     public static void main(String[] args) {
         int[] list = new int[10];
         int[] nums = { 1, 2, 3 };

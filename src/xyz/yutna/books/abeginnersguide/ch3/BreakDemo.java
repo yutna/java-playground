@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
-public class BreakDemo {
+class BreakDemo {
     public static void main(String[] args) {
         int num;
 

@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-public class HelpClassDemo {
+class HelpClassDemo {
     public static void main(String[] args) throws java.io.IOException {
         char choice, ignore;
         Help help = new Help();

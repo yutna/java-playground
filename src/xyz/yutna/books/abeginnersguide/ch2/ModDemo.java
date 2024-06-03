@@ -2,7 +2,7 @@ package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate the % operator.
 // NOTE: In Java, the % operator works with both int and floating-point types.
-public class ModDemo {
+class ModDemo {
     public static void main(String[] args) {
         int iresult, irem;
         double dresult, drem;

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Guess the letter game, 3rd version
-public class Guess3 {
+class Guess3 {
     public static void main(String[] args) throws java.io.IOException {
         char ch, answer = 'K';
 

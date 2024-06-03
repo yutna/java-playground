@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
-public class SelfTest2 {
+class SelfTest2 {
     public static void main(String[] args) {
         int score = 65;
 

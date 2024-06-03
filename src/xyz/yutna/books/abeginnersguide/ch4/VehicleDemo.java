@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-public class VehicleDemo {
+class VehicleDemo {
     public static void main(String[] args) {
         Vehicle minivan = new Vehicle();
         int range;

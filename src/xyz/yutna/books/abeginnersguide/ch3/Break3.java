@@ -9,7 +9,7 @@ package xyz.yutna.books.abeginnersguide.ch3;
  */
 
 // Using break with nested loops.
-public class Break3 {
+class Break3 {
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
             System.out.println("Outer loop count: " + i);

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // A negatively running for loop.
-public class DecrFor {
+class DecrFor {
     public static void main(String[] args) {
         int x;
 

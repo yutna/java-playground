@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Demonstrate a one-dimensional array.
-public class ArrayDemo {
+class ArrayDemo {
     public static void main(String[] args) {
         int[] sample = new int[10];
         int i;

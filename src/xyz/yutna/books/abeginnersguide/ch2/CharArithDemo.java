@@ -4,7 +4,7 @@ package xyz.yutna.books.abeginnersguide.ch2;
  * Character variables can be handled like integers.
  */
 
-public class CharArithDemo {
+class CharArithDemo {
     public static void main(String[] args) {
         char ch;
 

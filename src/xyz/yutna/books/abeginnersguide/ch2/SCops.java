@@ -1,9 +1,9 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate the short-circuit operators
-public class SCops {
+class SCops {
     public static void main(String[] args) {
-        int n, d, q;
+        int n, d;
 
         n = 20;
         d = 2;

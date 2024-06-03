@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Use array initializers.
-public class MinMax2 {
+class MinMax2 {
     public static void main(String[] args) {
         int[] nums = { 99, -10, 100123, 18, -978, 5623, 463, -9, 287, 49 };
         int min, max;

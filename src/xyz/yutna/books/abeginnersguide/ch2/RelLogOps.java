@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate the relational and logical operators.
-public class RelLogOps {
+class RelLogOps {
     public static void main(String[] args) {
         int i, j;
         boolean b1, b2;

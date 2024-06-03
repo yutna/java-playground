@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Search an array using for-each style for.
-public class Search {
+class Search {
     public static void main(String[] args) {
         int[] numbers = { 6, 8, 3, 7, 5, 6, 1, 4 };
         int value = 5;

@@ -4,7 +4,7 @@ package xyz.yutna.books.abeginnersguide.ch5;
  * Try This 5-1
  * Demonstrate the Bubble sort.
  */
-public class Bubble {
+class Bubble {
     public static void main(String[] args) {
         int[] numbers = { 99, -10, 100123, 18, -978, 5623, 463, -9, 287, 49 };
         int a, b, t;

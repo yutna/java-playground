@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Assigning array reference variables.
-public class AssignARef {
+class AssignARef {
     public static void main(String[] args) {
         int i;
 

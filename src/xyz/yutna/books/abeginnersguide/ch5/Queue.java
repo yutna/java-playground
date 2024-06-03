@@ -5,11 +5,11 @@ package xyz.yutna.books.abeginnersguide.ch5;
  * A queue class for characters.
  */
 
-public class Queue {
+class Queue {
     char[] queue; // this array holds the queue
     int putLocation, getLocation; // the put and get indices
 
-    public Queue(int size) {
+    Queue(int size) {
         queue = new char[size]; // allocate memory for queue
         putLocation = getLocation = 0;
     }

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate block scope.
-public class ScopeDemo {
+class ScopeDemo {
     public static void main(String[] args) {
         int x; // known to all code within main
 

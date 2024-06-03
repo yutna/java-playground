@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate lifetime of a variable.
-public class VarInitDemo {
+class VarInitDemo {
     public static void main(String[] args) {
         int x;
 

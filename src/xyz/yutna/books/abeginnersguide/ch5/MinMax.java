@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Find the minimum and maximum values in an array.
-public class MinMax {
+class MinMax {
     public static void main(String[] args) {
         int[] nums = new int[10];
         int min, max;

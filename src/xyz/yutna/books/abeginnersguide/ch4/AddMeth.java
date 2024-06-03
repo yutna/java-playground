@@ -1,11 +1,9 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-public class AddMeth {
+class AddMeth {
     public static void main(String[] args) {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
-
-        int range1, range2;
 
         minivan.passengers = 7;
         minivan.fuelcap = 16;

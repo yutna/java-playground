@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch1;
  * Call this file MoonGravity.java
  */
 
-public class MoonGravity {
+class MoonGravity {
     public static void main(String[] args) {
         double earthWeight;
         double moonWeight;

@@ -2,7 +2,7 @@ package xyz.yutna.books.abeginnersguide.ch5;
 
 // String are immutable.
 // Use substring();
-public class SubStr {
+class SubStr {
     public static void main(String[] args) {
         String orgstr = "Java makes web move.";
 

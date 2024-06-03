@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Demonstrate an if-else-if ladder.
-public class Ladder {
+class Ladder {
     public static void main(String[] args) {
         int x;
 

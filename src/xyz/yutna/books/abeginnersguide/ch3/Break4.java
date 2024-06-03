@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Using break with label
-public class Break4 {
+class Break4 {
     public static void main(String[] args) {
         int i;
 

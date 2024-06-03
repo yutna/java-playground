@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Demonstrate the do-while loop
-public class DWDemo {
+class DWDemo {
     public static void main(String[] args) throws java.io.IOException {
         char ch;
 

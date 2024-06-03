@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Initialize a two-dimensional array.
-public class Squares {
+class Squares {
     public static void main(String[] args) {
         int[][] sqrs = {
             { 1, 1 },
