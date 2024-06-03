@@ -7,6 +7,7 @@ package xyz.yutna.books.abeginnersguide.ch3;
 
 // this program contains an error
 class BreakErr {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         one: for (int i = 0; i < 3; i++) {
             System.out.print("Pass " + i + ": ");
