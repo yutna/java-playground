@@ -16,6 +16,5 @@ class AccessDemo {
         // There are OK because beta and gamma are public.
         ob.beta = 88;
         ob.gamma = 99;
-        ;
     }
 }

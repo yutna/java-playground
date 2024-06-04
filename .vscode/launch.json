@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SDemo3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.SDemo3",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SDemo2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.SDemo2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.SDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.Recursion",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "QDemo2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.QDemo2",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "SumDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.SumDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "OverloadConsDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.OverloadConsDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "TypeConv",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.TypeConv",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "OverloadDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.OverloadDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
             "name": "ErrInfo",
             "request": "launch",
             "mainClass": "xyz.yutna.books.abeginnersguide.ch6.ErrInfo",
