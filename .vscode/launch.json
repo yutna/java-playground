@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ErrInfo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.ErrInfo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "ErrMsg",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.ErrMsg",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "PassObRef",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.PassObRef",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "CallByValue",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.CallByValue",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "PassOb",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.PassOb",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "FSDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.FSDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
+            "name": "AccessDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.AccessDemo",
+            "projectName": "java-playground_d1f0cc82"
+        },
+        {
+            "type": "java",
             "name": "SelfTest21",
             "request": "launch",
             "mainClass": "xyz.yutna.books.abeginnersguide.ch5.SelfTest21",
