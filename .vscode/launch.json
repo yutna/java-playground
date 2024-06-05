@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VarArgs4",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.VarArgs4",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "VarArgs3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.VarArgs3",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "VarArgs2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.VarArgs2",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "VarArgs",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.VarArgs",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
             "name": "LocalClassDemo",
             "request": "launch",
             "mainClass": "xyz.yutna.books.abeginnersguide.ch6.LocalClassDemo",
