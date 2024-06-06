@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch1;
  *  Call this file Example2.java.
  */
 
-class Example2 {
+public class Example2 {
     public static void main(String[] args) {
         int myVal1; // this declares a variable
         int myVal2; // this declares another variable

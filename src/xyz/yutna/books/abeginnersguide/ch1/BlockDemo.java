@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch1;
  * Call this file BlockDemo.java.
  */
 
-class BlockDemo {
+public class BlockDemo {
     public static void main(String[] args) {
         double i, j, d;
 

@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch1;
  * Call this file ForDemo.java
  */
 
-class ForDemo {
+public class ForDemo {
     public static void main(String[] args) {
         int count;
 
