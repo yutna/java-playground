@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BWDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.BWDemo",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.SelfTest3",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest13",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.SelfTest13",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest6Main",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.SelfTest6Main",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "SelfTest4Main",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.SelfTest4Main",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "StackDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.abeginnersguide.ch6.StackDemo",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
             "name": "VarArgs4",
             "request": "launch",
             "mainClass": "xyz.yutna.books.abeginnersguide.ch6.VarArgs4",
