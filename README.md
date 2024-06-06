@@ -11,6 +11,11 @@ this project, please ensure that these tools are installed before you begin.
 
 - [Java JDK Development Kit 21.0.3][0]
 - [Visual Studio Code + Extension Pack for Java][1]
+- [Code Runnder Extension][2]
+
+## Run the code examples
+
+Since all the examples in the books are code snippets, and for simplicity's sake, I set this project to [lightweight mode][5] instead of a full Java project in standard mode. In this mode, you cannot run the Java files directly via VS Code; you need to run them using the Code Runner extension instead.
 
 ## Book references
 
@@ -22,5 +27,7 @@ completed, taken from these books.
 
 [0]: https://www.oracle.com/java/technologies/downloads/#java21
 [1]: https://code.visualstudio.com/docs/java/java-tutorial
+[2]: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 [3]: https://www.mhprofessional.com/java-a-beginner-s-guide-tenth-edition-9781265054632-usa
 [4]: https://www.mhprofessional.com/java-the-complete-reference-thirteenth-edition-9781265058432-usa
+[5]: https://code.visualstudio.com/docs/java/java-project#_lightweight-mode
