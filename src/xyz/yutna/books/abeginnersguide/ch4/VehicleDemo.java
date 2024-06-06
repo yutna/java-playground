@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-class VehicleDemo {
+public class VehicleDemo {
     public static void main(String[] args) {
         Vehicle minivan = new Vehicle();
         int range;
@@ -11,7 +11,6 @@ class VehicleDemo {
         minivan.mpg = 21;
 
         range = minivan.fuelcap * minivan.mpg;
-        System.out.println("Minivan can carry " + minivan.passengers +
-            " with a range of " + range);
+        System.out.println("Minivan can carry " + minivan.passengers + " with a range of " + range);
     }
 }

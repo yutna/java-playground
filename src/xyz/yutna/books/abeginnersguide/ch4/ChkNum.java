@@ -1,10 +1,12 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
 // A simple example that uses a parameter.
-class ChkNum {
+public class ChkNum {
     // return true if x is even
-    boolean isEven(int x) {
-        if ((x % 2) == 0) return true;
-        else return false;
+    public boolean isEven(int x) {
+        if ((x % 2) == 0)
+            return true;
+        else
+            return false;
     }
 }

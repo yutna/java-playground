@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-class HelpClassDemo {
+public class HelpClassDemo {
     public static void main(String[] args) throws java.io.IOException {
         char choice, ignore;
         Help help = new Help();
@@ -15,7 +15,8 @@ class HelpClassDemo {
                 } while (ignore != '\n');
             } while (!help.isValid(choice));
 
-            if (choice == 'q') break;
+            if (choice == 'q')
+                break;
 
             System.out.println("\n");
             help.helpOn(choice);

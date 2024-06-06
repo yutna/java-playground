@@ -1,20 +1,23 @@
 package xyz.yutna.books.abeginnersguide.ch4;
 
-class Pwr {
-    double b;
-    int e;
-    double val;
+public class Pwr {
+    public double b;
+    public int e;
+    public double val;
 
-    Pwr(double b, int e) {
+    public Pwr(double b, int e) {
         this.b = b;
         this.e = e;
         this.val = 1;
 
-        if (e == 0) return;
-        for (; e > 0; e--) val *= b;
+        if (e == 0)
+            return;
+
+        for (; e > 0; e--)
+            val *= b;
     }
 
-    double getVal() {
+    public double getVal() {
         return this.val;
     }
 }
