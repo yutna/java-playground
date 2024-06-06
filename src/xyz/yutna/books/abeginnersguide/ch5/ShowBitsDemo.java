@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class ShowBitsDemo {
+public class ShowBitsDemo {
     public static void main(String[] args) {
         ShowBits2 b = new ShowBits2(8);
         ShowBits2 i = new ShowBits2(32);

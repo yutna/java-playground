@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class CLDemo {
+public class CLDemo {
     public static void main(String[] args) {
         System.out.println("There are " + args.length + " command line arguments.");
         System.out.println("They are: ");

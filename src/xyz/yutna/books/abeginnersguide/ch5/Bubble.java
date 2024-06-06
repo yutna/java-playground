@@ -4,7 +4,7 @@ package xyz.yutna.books.abeginnersguide.ch5;
  * Try This 5-1
  * Demonstrate the Bubble sort.
  */
-class Bubble {
+public class Bubble {
     public static void main(String[] args) {
         int[] numbers = { 99, -10, 100123, 18, -978, 5623, 463, -9, 287, 49 };
         int a, b, t;
@@ -39,10 +39,10 @@ class Bubble {
 
 // Bubble sort explain when numbers = { 9, 1, 2, 3 }
 // 9 1 2 3 | a = 1 | b = 3 | 3 >= 1 | num[2] > num[3] -> 2 > 3
-//                 | b = 2 | 2 >= 1 | num[1] > num[2] -> 1 > 2
-//                 | b = 1 | 1 >= 1 | num[0] > num[1] -> 9 > 1 | 1 9 2 3
+// | b = 2 | 2 >= 1 | num[1] > num[2] -> 1 > 2
+// | b = 1 | 1 >= 1 | num[0] > num[1] -> 9 > 1 | 1 9 2 3
 // 1 9 2 3 | a = 2 | b = 3 | 3 >= 2 | num[2] > num[3] -> 2 > 3
-//                 | b = 2 | 2 >= 2 | num[1] > num[2] -> 9 > 2 | 1 2 9 3
-//                 | b = 1 | 1 >= 2
+// | b = 2 | 2 >= 2 | num[1] > num[2] -> 9 > 2 | 1 2 9 3
+// | b = 1 | 1 >= 2
 // 1 2 9 3 | a = 3 | b = 3 | 3 >= 3 | num[2] > num[3] -> 9 > 3 | 1 2 3 9
-//                 | b = 2 | 2 >= 3
+// | b = 2 | 2 >= 3

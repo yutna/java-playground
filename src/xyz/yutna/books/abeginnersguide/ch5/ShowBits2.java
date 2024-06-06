@@ -1,13 +1,13 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class ShowBits2 {
-    int numBits;
+public class ShowBits2 {
+    public int numBits;
 
-    ShowBits2(int n) {
+    public ShowBits2(int n) {
         numBits = n;
     }
 
-    void show(long val) {
+    public void show(long val) {
         long mask = 1;
         int spacer = 0;
 

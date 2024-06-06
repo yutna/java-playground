@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Display the bits within a byte:
-class ShowBits {
+public class ShowBits {
     public static void main(String[] args) {
         int t;
         byte val;

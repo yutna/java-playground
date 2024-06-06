@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class SelfTest21 {
+public class SelfTest21 {
     public static void main(String[] args) {
         int numBits = 64;
         long val = 123_456;

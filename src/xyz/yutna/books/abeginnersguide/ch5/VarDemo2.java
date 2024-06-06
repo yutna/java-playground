@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class VarDemo2 {
+public class VarDemo2 {
     public static void main(String[] args) {
         var mc = new MyClass(10); // Notice the use of var here.
 

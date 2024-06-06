@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Prevent a division by zero using the ?.
-class NoZeroDiv2 {
+public class NoZeroDiv2 {
     public static void main(String[] args) {
         for (int i = -5; i < 6; i++) {
             if ((i != 0) ? true : false)

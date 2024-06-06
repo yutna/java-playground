@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class UpCase {
+public class UpCase {
     public static void main(String[] args) {
         char ch;
 

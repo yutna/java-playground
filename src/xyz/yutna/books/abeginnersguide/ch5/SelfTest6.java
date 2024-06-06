@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class SelfTest6 {
+public class SelfTest6 {
     public static void main(String[] args) {
         String str = "I like Java";
 

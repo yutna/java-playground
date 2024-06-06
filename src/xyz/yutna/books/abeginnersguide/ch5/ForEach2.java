@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Use for-each style for on a two-dimensional array.
-class ForEach2 {
+public class ForEach2 {
     public static void main(String[] args) {
         int sum = 0;
         int[][] numbers = new int[3][5];
@@ -14,8 +14,8 @@ class ForEach2 {
         }
 
         // Use for-each for loop to display and sum the values.
-        for (int[] x: numbers) { // notice how x is declared.
-            for (int y: x) {
+        for (int[] x : numbers) { // notice how x is declared.
+            for (int y : x) {
                 System.out.println("Value is: " + y);
                 sum += y;
             }

@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class Encode {
+public class Encode {
     public static void main(String[] args) {
         String msg = "This is a test";
         String encMsg = "";

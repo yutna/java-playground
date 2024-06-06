@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Lowercase letter
-class LowCase {
+public class LowCase {
     public static void main(String[] args) {
         char ch;
 

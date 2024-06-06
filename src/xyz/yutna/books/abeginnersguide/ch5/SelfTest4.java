@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class SelfTest4 {
+public class SelfTest4 {
     public static void main(String[] args) {
         String temp;
         String[] strs = {

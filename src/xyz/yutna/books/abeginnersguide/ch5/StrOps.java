@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Some String operations.
-class StrOps {
+public class StrOps {
     public static void main(String[] args) {
         String str1 = "When it comes to Web programming, Java is #1";
         String str2 = new String(str1);

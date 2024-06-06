@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class ShiftDemo {
+public class ShiftDemo {
     public static void main(String[] args) {
         int val = 1;
 

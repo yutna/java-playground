@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Demonstrate the Queue class
-class QDemo {
+public class QDemo {
     public static void main(String[] args) {
         Queue bigQ = new Queue(100);
         Queue smallQ = new Queue(4);
@@ -19,7 +19,8 @@ class QDemo {
         System.out.print("Contents of bigQ: ");
         for (i = 0; i < 26; i++) {
             ch = bigQ.get();
-            if (ch != (char) 0) System.out.print(ch);
+            if (ch != (char) 0)
+                System.out.print(ch);
         }
 
         System.out.println("\n");
@@ -37,7 +38,8 @@ class QDemo {
         // more errors on smallQ
         for (i = 0; i < 5; i++) {
             ch = smallQ.get();
-            if (ch != (char) 0) System.out.print(ch);
+            if (ch != (char) 0)
+                System.out.print(ch);
         }
     }
 }

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Demonstrate an array overrun.
-class ArrayErr {
+public class ArrayErr {
     public static void main(String[] args) {
         int[] sample = new int[10];
         int i;

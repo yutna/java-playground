@@ -1,18 +1,18 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Local variable type interence with a user-defined class type.
-class MyClass {
+public class MyClass {
     private int i;
 
-    MyClass(int k) {
+    public MyClass(int k) {
         i = k;
     }
 
-    int geti() {
+    public int geti() {
         return i;
     }
 
-    void seti(int k) {
+    public void seti(int k) {
         if (k >= 0)
             i = k;
     }

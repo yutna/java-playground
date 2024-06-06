@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class SelfTest13 {
+public class SelfTest13 {
     public static void main(String[] args) {
         int[] nums = { 99, -10, 100123, 18, -978, 5623, 463, -9, 287, 49 };
         int min, max;

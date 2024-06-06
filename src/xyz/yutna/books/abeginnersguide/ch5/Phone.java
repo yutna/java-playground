@@ -1,12 +1,12 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class Phone {
+public class Phone {
     public static void main(String[] args) {
         String[][] numbers = {
-            { "Tome", "555-3322" },
-            { "Mary", "555-8976" },
-            { "Jon", "555-1037" },
-            { "Rachel", "555-1400" },
+                { "Tome", "555-3322" },
+                { "Mary", "555-8976" },
+                { "Jon", "555-1037" },
+                { "Rachel", "555-1400" },
         };
 
         int i;

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Using type inference in a for loop.
-class VarDemo3 {
+public class VarDemo3 {
     public static void main(String[] args) {
         // Use type inference with the loop control variable.
         System.out.print("Values of x: ");

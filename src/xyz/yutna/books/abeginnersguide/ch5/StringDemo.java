@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Introduce string
-class StringDemo {
+public class StringDemo {
     public static void main(String[] args) {
         // declare strings in various ways
         String str1 = new String("Java strings are object");

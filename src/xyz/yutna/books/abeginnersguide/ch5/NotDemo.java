@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
-class NotDemo {
+public class NotDemo {
     public static void main(String[] args) {
         byte b = -34;
 

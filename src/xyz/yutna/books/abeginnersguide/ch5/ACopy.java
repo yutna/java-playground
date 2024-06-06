@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Use length variable to help copy an array
-class ACopy {
+public class ACopy {
     public static void main(String[] args) {
         int i;
         int[] nums1 = new int[10];

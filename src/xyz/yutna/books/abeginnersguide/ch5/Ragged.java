@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch5;
 
 // Manually allocate differing size second dimensions.
-class Ragged {
+public class Ragged {
     public static void main(String[] args) {
         int[][] riders = new int[7][];
 
