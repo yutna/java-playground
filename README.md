@@ -11,7 +11,7 @@ this project, please ensure that these tools are installed before you begin.
 
 - [Java JDK Development Kit 21.0.3][0]
 - [Visual Studio Code + Extension Pack for Java][1]
-- [Code Runnder Extension][2]
+- [Code Runner Extension][2]
 
 ## Run the code examples
 
