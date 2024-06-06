@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TruckDemo",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.beginnersguide.ch7.TruckDemo",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "UseSuper",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.beginnersguide.ch7.UseSuper",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "Shape5",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.beginnersguide.ch7.Shape5",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "Shape4",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.beginnersguide.ch7.Shape4",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "Shape3",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.beginnersguide.ch7.Shape3",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "Shape2",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.beginnersguide.ch7.Shape2",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
+            "name": "Shape",
+            "request": "launch",
+            "mainClass": "xyz.yutna.books.beginnersguide.ch7.Shape",
+            "projectName": "java-playground_d6e33df3"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
