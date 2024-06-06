@@ -1,13 +1,13 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class SelfTest4 {
-    int a;
+public class SelfTest4 {
+    public int a;
 
-    SelfTest4(int i) {
+    public SelfTest4(int i) {
         a = i;
     }
 
-    void swap(SelfTest4 ob) {
+    public void swap(SelfTest4 ob) {
         int temp = ob.a;
         ob.a = a;
         a = temp;

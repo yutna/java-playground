@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class SDemo3 {
+public class SDemo3 {
     public static void main(String[] args) {
         new StaticBlock("Inside Constructor");
 

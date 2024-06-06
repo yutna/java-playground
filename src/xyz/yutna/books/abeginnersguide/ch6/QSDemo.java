@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class QSDemo {
+public class QSDemo {
     public static void main(String[] args) {
         char[] a = { 'd', 'x', 'a', 'r', 'p', 'j', 'i' };
         int i;

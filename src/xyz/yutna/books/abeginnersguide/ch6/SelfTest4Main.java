@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class SelfTest4Main {
+public class SelfTest4Main {
     public static void main(String[] args) {
         SelfTest4 ob1 = new SelfTest4(1);
         SelfTest4 ob2 = new SelfTest4(2);

@@ -1,11 +1,11 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
 // Objects can be passed to methods.
-class Block {
-    int a, b, c;
-    int volume;
+public class Block {
+    public int a, b, c;
+    public int volume;
 
-    Block(int i, int j, int k) {
+    public Block(int i, int j, int k) {
         a = i;
         b = j;
         c = k;
@@ -14,7 +14,7 @@ class Block {
     }
 
     // Return true if ob defines same block.
-    boolean sameBlock(Block ob) { // Use object type for parameter.
+    public boolean sameBlock(Block ob) { // Use object type for parameter.
         if ((ob.a == a) & (ob.b == b) & (ob.c == c))
             return true;
         else
@@ -22,7 +22,7 @@ class Block {
     }
 
     // Return true if ob has same volume.
-    boolean sameVolume(Block ob) {
+    public boolean sameVolume(Block ob) {
         if (ob.volume == volume)
             return true;
         else

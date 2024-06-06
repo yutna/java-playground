@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class ErrInfo {
+public class ErrInfo {
     public static void main(String[] args) {
         ErrorInfo err = new ErrorInfo();
         Err e;

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class SelfTest6 {
-    static String reverse(String message) {
+public class SelfTest6 {
+    public static String reverse(String message) {
         return r(message, message.length() - 1);
     }
 

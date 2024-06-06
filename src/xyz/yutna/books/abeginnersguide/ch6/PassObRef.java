@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class PassObRef {
+public class PassObRef {
     public static void main(String[] args) {
         Test2 ob = new Test2(15, 20);
 

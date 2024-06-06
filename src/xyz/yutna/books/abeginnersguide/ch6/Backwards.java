@@ -1,14 +1,14 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
 // Display a string backwards using recursion.
-class Backwards {
-    String str;
+public class Backwards {
+    public String str;
 
-    Backwards(String s) {
+    public Backwards(String s) {
         str = s;
     }
 
-    void backwards(int idx) {
+    public void backwards(int idx) {
         if (idx != str.length() - 1)
             backwards(idx + 1);
         System.out.print(str.charAt(idx));

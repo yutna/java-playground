@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class SelfTest3 {
+public class SelfTest3 {
     public static void main(String[] args) {
         MyStack s = new MyStack(3);
         MyStack s1 = new MyStack(10);

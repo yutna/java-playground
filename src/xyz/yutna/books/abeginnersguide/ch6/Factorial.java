@@ -1,9 +1,9 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
 // A simple example of recursion.
-class Factorial {
+public class Factorial {
     // This is a recursive function.
-    int facR(int n) {
+    public int facR(int n) {
         int result;
 
         if (n == 1)
@@ -15,7 +15,7 @@ class Factorial {
     }
 
     // This is an iterative equivalent.
-    int facI(int n) {
+    public int facI(int n) {
         int t, result;
 
         result = 1;

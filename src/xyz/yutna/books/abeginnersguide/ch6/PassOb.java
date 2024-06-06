@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class PassOb {
+public class PassOb {
     public static void main(String[] args) {
         Block ob1 = new Block(10, 2, 5);
         Block ob2 = new Block(10, 2, 5);

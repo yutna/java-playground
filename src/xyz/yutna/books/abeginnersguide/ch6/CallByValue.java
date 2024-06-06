@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class CallByValue {
+public class CallByValue {
     public static void main(String[] args) {
         Test ob = new Test();
         int a = 15, b = 20;

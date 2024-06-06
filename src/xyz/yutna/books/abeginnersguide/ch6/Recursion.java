@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class Recursion {
+public class Recursion {
     public static void main(String[] args) {
         Factorial f = new Factorial();
 

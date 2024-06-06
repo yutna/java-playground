@@ -1,9 +1,9 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-// NOTE Java automatic type conversion also apply to parameters of overlaoded methods.
-// NOTE The automatic conversions apply only if there is no direct match between a parameter and an argument.
+// NOTE - Java automatic type conversion also apply to parameters of overlaoded methods.
+// NOTE - The automatic conversions apply only if there is no direct match between a parameter and an argument.
 
-class TypeConv {
+public class TypeConv {
     public static void main(String[] args) {
         Overload2 ob = new Overload2();
 

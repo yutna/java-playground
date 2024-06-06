@@ -3,9 +3,9 @@ package xyz.yutna.books.abeginnersguide.ch6;
 // REVIEW - ยังไม่ค่อยเข้าใจ logic เบื้องหลังในการ implement เลย งง มาก 🤯
 
 // Try This 6-3: A simple version of the QuickSort.
-class QuickSort {
+public class QuickSort {
     // Set up a call to the actual QuickSort method.
-    static void qsort(char[] items) {
+    public static void qsort(char[] items) {
         qs(items, 0, items.length - 1);
     }
 

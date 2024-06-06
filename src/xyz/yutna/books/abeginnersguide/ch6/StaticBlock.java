@@ -1,13 +1,13 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
 /*
- * NOTE A static block is executed when the class is first loaded.
+ * NOTE - A static block is executed when the class is first loaded.
  * Thus it is executed before the class can be used for any other purpose.
  */
 
-class StaticBlock {
-    static double rootOf2;
-    static double rootOf3;
+public class StaticBlock {
+    public static double rootOf2;
+    public static double rootOf3;
 
     // This block is executed when the class is loaded.
     static {
@@ -17,7 +17,7 @@ class StaticBlock {
         rootOf3 = Math.sqrt(3.0);
     }
 
-    StaticBlock(String msg) {
+    public StaticBlock(String msg) {
         System.out.println(msg);
     }
 }

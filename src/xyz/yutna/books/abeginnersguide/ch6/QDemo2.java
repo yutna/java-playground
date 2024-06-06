@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class QDemo2 {
+public class QDemo2 {
     public static void main(String[] args) {
         // Construct 10-element empty queue
         Queue2 q1 = new Queue2(10);

@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class SDemo {
+public class SDemo {
     public static void main(String[] args) {
         StaticDemo ob1 = new StaticDemo();
         StaticDemo ob2 = new StaticDemo();

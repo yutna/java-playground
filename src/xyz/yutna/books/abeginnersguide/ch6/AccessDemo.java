@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class AccessDemo {
+public class AccessDemo {
     public static void main(String[] args) {
         MyClass ob = new MyClass();
 

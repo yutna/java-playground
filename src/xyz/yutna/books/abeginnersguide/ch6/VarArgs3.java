@@ -1,14 +1,14 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
 // Varargs and overloading.
-class VarArgs3 {
+public class VarArgs3 {
     public static void main(String[] args) {
         vaTest(1, 2, 3);
         vaTest("Testing: ", 10, 20);
         vaTest(true, false, false);
     }
 
-    static void vaTest(int... v) {
+    public static void vaTest(int... v) {
         System.out.println("vaTest(int ...): Number of args: " + v.length);
         System.out.println("Contents: ");
 
@@ -17,7 +17,7 @@ class VarArgs3 {
         System.out.println();
     }
 
-    static void vaTest(boolean... v) {
+    public static void vaTest(boolean... v) {
         System.out.println("vaTest(boolean...): Number of args: " + v.length);
         System.out.println("Contents: ");
 
@@ -26,7 +26,7 @@ class VarArgs3 {
         System.out.println();
     }
 
-    static void vaTest(String msg, int... v) {
+    public static void vaTest(String msg, int... v) {
         System.out.println("vaTest(String, int...): " + msg + v.length);
         System.out.println("Contents: ");
 

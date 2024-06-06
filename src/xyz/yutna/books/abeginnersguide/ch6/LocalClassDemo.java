@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
 // Use ShowBits as a local class.
-class LocalClassDemo {
+public class LocalClassDemo {
     public static void main(String[] args) {
         // An inner class version ob ShowBits.
         class ShowBits {

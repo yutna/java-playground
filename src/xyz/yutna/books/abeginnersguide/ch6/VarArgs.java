@@ -11,7 +11,7 @@ package xyz.yutna.books.abeginnersguide.ch6;
 // LINK - ./VarArgs2.java
 
 // Demonstrate variable-length arguments.
-class VarArgs {
+public class VarArgs {
     public static void main(String[] args) {
         // Notice how vaTest() can be called with a variable number of arguments.
         vaTest(10); // 1 arg
@@ -19,7 +19,7 @@ class VarArgs {
         vaTest(); // no args
     }
 
-    static void vaTest(int... v) {
+    public static void vaTest(int... v) {
         System.out.println("Number of args: " + v.length);
         System.out.println("Contents: ");
 

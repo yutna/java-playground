@@ -1,16 +1,16 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class Queue2 {
+public class Queue2 {
     private char[] q;
     private int putLocation, getLocation;
 
-    Queue2(int size) {
+    public Queue2(int size) {
         q = new char[size];
         putLocation = getLocation = 0;
     }
 
     // Construct a Queue from Queue
-    Queue2(Queue2 ob) {
+    public Queue2(Queue2 ob) {
         putLocation = ob.putLocation;
         getLocation = ob.getLocation;
         q = new char[ob.q.length];
@@ -22,7 +22,7 @@ class Queue2 {
     }
 
     // Construct a Queue with initial values.
-    Queue2(char[] a) {
+    public Queue2(char[] a) {
         putLocation = 0;
         getLocation = 0;
         q = new char[a.length];
@@ -33,7 +33,7 @@ class Queue2 {
     }
 
     // Put a character into the queue.
-    void put(char ch) {
+    public void put(char ch) {
         if (putLocation == q.length) {
             System.out.println(" -- Queue is full.");
             return;
@@ -43,7 +43,7 @@ class Queue2 {
     }
 
     // Get a character from the queue.
-    char get() {
+    public char get() {
         if (putLocation == getLocation) {
             System.out.println(" -- Queue is empty.");
             return (char) 0;

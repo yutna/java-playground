@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class FSDemo {
+public class FSDemo {
     public static void main(String[] args) {
         FailSoftArray fs = new FailSoftArray(5, -1);
         int x;

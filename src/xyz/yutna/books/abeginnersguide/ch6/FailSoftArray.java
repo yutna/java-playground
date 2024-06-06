@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
 // This class implements a "fail-soft" array which prevents runtime errors.
-class FailSoftArray {
+public class FailSoftArray {
     public int length;
 
     private int[] a; // reference to array

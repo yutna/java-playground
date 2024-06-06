@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class ErrMsg {
+public class ErrMsg {
     public static void main(String[] args) {
         ErrorMsg err = new ErrorMsg();
 

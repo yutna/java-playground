@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class OverloadDemo {
+public class OverloadDemo {
     public static void main(String[] args) {
         Overload ob = new Overload();
         int resI;

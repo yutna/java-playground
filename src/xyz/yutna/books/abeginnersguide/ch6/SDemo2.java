@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class SDemo2 {
+public class SDemo2 {
     public static void main(String[] args) {
         System.out.println("val is " + StaticMeth.val);
         System.out.println("StaticMeth.valDiv2(): " + StaticMeth.valDiv2());

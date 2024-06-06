@@ -1,14 +1,14 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
 // Use an inner class
-class Outer {
-    int[] nums;
+public class Outer {
+    public int[] nums;
 
-    Outer(int[] n) {
+    public Outer(int[] n) {
         nums = n;
     }
 
-    void analyze() {
+    public void analyze() {
         Inner inOb = new Inner();
 
         System.out.println("Minimum: " + inOb.min());
@@ -17,8 +17,8 @@ class Outer {
     }
 
     // This is an inner class
-    class Inner {
-        int min() {
+    public class Inner {
+        public int min() {
             int m = nums[0];
 
             for (int i = 1; i < nums.length; i++)
@@ -28,7 +28,7 @@ class Outer {
             return m;
         }
 
-        int max() {
+        public int max() {
             int m = nums[0];
 
             for (int i = 1; i < nums.length; i++)
@@ -38,7 +38,7 @@ class Outer {
             return m;
         }
 
-        int avg() {
+        public int avg() {
             int a = 0;
 
             for (int i = 0; i < nums.length; i++)

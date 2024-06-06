@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch6;
 
-class StackDemo {
+public class StackDemo {
     public static void main(String[] args) {
         // construct 10-elements empty stack
         Stack stk1 = new Stack(10);
