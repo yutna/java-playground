@@ -3,7 +3,6 @@
  * This program displays a conversion table of gallons to liters.
  * Call this program "GalToListTable.java".
  */
-
 class GalToLitTable {
     public static void main(String[] args) {
         double gallons, liters;

@@ -2,7 +2,6 @@
  * Demonstrate the `if`.
  * Call this file IfDemo.java.
  */
-
 class IfDemo {
     public static void main(String[] args) {
         int a, b, c;

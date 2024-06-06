@@ -2,9 +2,7 @@ class AccessDemo {
     public static void main(String[] args) {
         MyClass ob = new MyClass();
 
-        /*
-         * Access to alpha is allowed only through its accessor methods
-         */
+        // Access to alpha is allowed only through its accessor methods
         ob.setAlpha(-99);
         System.out.println("ob.alpha is " + ob.getAlpha());
 

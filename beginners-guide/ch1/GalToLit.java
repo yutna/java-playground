@@ -3,7 +3,6 @@
  * This program converts gallons to liters.
  * Call this program GalToLit.java.
  */
-
 class GalToLit {
     public static void main(String[] args) {
         double gallons; // holds the number of gallons

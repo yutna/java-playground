@@ -2,7 +2,6 @@
  *  This demonstrates a variable.
  *  Call this file Example2.java.
  */
-
 class Example2 {
     public static void main(String[] args) {
         int myVal1; // this declares a variable

@@ -3,7 +3,6 @@
  * Compute the distance to a lightning strike whose sound takes 7.2 seconds to
  * reach you.
  */
-
 class Sound {
     public static void main(String[] args) {
         double dist;

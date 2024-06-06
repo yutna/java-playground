@@ -2,7 +2,6 @@
  * Demonstrate the `for` loop.
  * Call this file ForDemo.java
  */
-
 class ForDemo {
     public static void main(String[] args) {
         int count;

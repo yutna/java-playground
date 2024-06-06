@@ -4,7 +4,6 @@
  *
  * ** This program will NOT compile. **
  */
-
 class NestVar {
     public static void main(String[] args) {
         int count;

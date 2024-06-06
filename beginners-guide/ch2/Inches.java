@@ -1,7 +1,6 @@
 /*
  * Compute the number of cubic inches in 1 cubic mile.
  */
-
 class Inches {
     public static void main(String[] args) {
         long ci;

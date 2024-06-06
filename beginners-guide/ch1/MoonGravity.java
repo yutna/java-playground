@@ -2,7 +2,6 @@
  * Compute your weight on the moon.
  * Call this file MoonGravity.java
  */
-
 class MoonGravity {
     public static void main(String[] args) {
         double earthWeight;
