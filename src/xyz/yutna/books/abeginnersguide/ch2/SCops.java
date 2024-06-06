@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate the short-circuit operators
-class SCops {
+public class SCops {
     public static void main(String[] args) {
         int n, d;
 
@@ -22,7 +22,7 @@ class SCops {
         // Now, try same thing without short-circuit operator.
         // This will cause a divide-by-zero error.
         // if (d != 0 & (n % d) == 0) {
-            // System.out.println(d + " is a factor of " + n);
+        // System.out.println(d + " is a factor of " + n);
         // }
     }
 }

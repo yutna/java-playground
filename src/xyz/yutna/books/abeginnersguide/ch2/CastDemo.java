@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Demonstrate casting
-class CastDemo {
+public class CastDemo {
     public static void main(String[] args) {
         double x, y;
         byte b;
@@ -19,7 +19,7 @@ class CastDemo {
         System.out.println("Value of b: " + b); // 100
 
         i = 257;
-        b= (byte) i; // Information loss this time, A byte CANNOT hold the value 257.
+        b = (byte) i; // Information loss this time, A byte CANNOT hold the value 257.
         System.out.println("Value of b: " + b);
 
         b = 88; // ASCII code for x

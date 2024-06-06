@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Using a cast.
-class UseCast {
+public class UseCast {
     public static void main(String[] args) {
         int i;
 

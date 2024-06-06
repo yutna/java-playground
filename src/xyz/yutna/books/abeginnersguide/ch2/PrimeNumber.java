@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Write a program that finds all of the prime numbers between 2 and 100.
-class PrimeNumber {
+public class PrimeNumber {
     public static void main(String[] args) {
         int i, j;
         boolean isPrime;

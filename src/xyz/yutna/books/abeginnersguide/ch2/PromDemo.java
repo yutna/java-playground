@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // A promotion surprise
-class PromDemo {
+public class PromDemo {
     public static void main(String[] args) {
         byte b;
         int i;
@@ -11,7 +11,8 @@ class PromDemo {
 
         b = 10;
         b = (byte) (b * b); // cast needed here to assign an int to byte 🤔
-        // คูณกันได้ 100 ยังไม่เกินขนาดที่ byte จะรับได้ ทำไมมันแปลงไปเป็น int ล่ะ? (surprise สมกับชื่อหัวข้อ 55+)
+        // คูณกันได้ 100 ยังไม่เกินขนาดที่ byte จะรับได้ ทำไมมันแปลงไปเป็น int ล่ะ?
+        // (surprise สมกับชื่อหัวข้อ 55+)
 
         System.out.println("i and b: " + i + " " + b);
 

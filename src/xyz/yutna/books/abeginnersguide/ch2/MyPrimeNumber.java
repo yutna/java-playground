@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // My solution for listing prime numbers between 2 and 100.
-class MyPrimeNumber {
+public class MyPrimeNumber {
     public static void main(String[] args) {
         int a, b, counter = 0;
 

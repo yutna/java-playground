@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch2;
 
 // Side effects can be important.
-class SideEffects {
+public class SideEffects {
     @SuppressWarnings("unused")
     public static void main(String[] args) {
         int i;

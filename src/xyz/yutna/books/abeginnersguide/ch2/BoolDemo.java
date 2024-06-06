@@ -4,7 +4,7 @@ package xyz.yutna.books.abeginnersguide.ch2;
  * Demonstrate boolean values.
  */
 
-class BoolDemo {
+public class BoolDemo {
     public static void main(String[] args) {
         boolean b;
 
@@ -15,10 +15,13 @@ class BoolDemo {
         System.out.println("b is " + b);
 
         // a boolean value can control the if statement.
-        if (b) System.out.println("This is executed.");
+        if (b)
+            System.out.println("This is executed.");
 
         b = false;
-        if (b) System.out.println("This is NOT executed.");
+
+        if (b)
+            System.out.println("This is NOT executed.");
 
         // outcome of a relational operator is a boolean value.
         System.out.println("10 > 9 is " + (10 > 9));

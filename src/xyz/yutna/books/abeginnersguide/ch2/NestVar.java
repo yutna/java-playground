@@ -7,7 +7,7 @@ package xyz.yutna.books.abeginnersguide.ch2;
  * ** This program will NOT compile. **
  */
 
-class NestVar {
+public class NestVar {
     public static void main(String[] args) {
         int count;
 
@@ -18,7 +18,7 @@ class NestVar {
             // Can NOT declare `count` again because it's already declared.
             // int count;
             // for (count = 0; count < 2; count++) {
-            //    System.out.println("This program is in error!");
+            // System.out.println("This program is in error!");
             // }
         }
     }
