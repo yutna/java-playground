@@ -5,7 +5,7 @@ package xyz.yutna.books.abeginnersguide.ch3;
  * A simple help system.
  */
 
-class Help {
+public class Help {
     public static void main(String[] args) throws java.io.IOException {
         char choice;
 

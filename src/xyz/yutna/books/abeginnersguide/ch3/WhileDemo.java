@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Demonstrate the while loop.
-class WhileDemo {
+public class WhileDemo {
     public static void main(String[] args) {
         char ch;
 

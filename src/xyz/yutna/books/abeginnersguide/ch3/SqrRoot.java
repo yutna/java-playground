@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Show square roots of 1 to 99 and the rounding errors.
-class SqrRoot {
+public class SqrRoot {
     public static void main(String[] args) {
         double num, sroot, reer;
 

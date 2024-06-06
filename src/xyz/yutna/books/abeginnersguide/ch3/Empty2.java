@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Move more out of the for loop:
-class Empty2 {
+public class Empty2 {
     public static void main(String[] args) {
         int i;
 

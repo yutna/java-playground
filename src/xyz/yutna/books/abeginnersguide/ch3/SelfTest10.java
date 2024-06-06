@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
-class SelfTest10 {
+public class SelfTest10 {
     public static void main(String[] args) throws java.io.IOException {
         char ch;
         int changes = 0;

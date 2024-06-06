@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Compute integer powers of 2
-class Power {
+public class Power {
     public static void main(String[] args) {
         int e;
         int result;

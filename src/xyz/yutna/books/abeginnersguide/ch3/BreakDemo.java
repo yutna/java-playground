@@ -1,6 +1,6 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
-class BreakDemo {
+public class BreakDemo {
     public static void main(String[] args) {
         int num;
 
@@ -8,7 +8,8 @@ class BreakDemo {
 
         // loop while i-squared is less than num
         for (int i = 0; i < num; i++) {
-            if (i * i >= num) break; // terminate loop if i * i >= 100
+            if (i * i >= num)
+                break; // terminate loop if i * i >= 100
             System.out.print(i + " ");
         }
 

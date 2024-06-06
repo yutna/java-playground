@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Parts of the for can be empty.
-class Empty {
+public class Empty {
     public static void main(String[] args) {
         int i;
 

@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Loop until an S is typed.
-class ForTest {
+public class ForTest {
     public static void main(String[] args) throws java.io.IOException {
         int i;
 

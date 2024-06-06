@@ -6,7 +6,7 @@ package xyz.yutna.books.abeginnersguide.ch3;
  * the end of the program.
  */
 
-class SelfTest1 {
+public class SelfTest1 {
     public static void main(String[] args) throws java.io.IOException {
         char ch;
         int spaces = 0;
@@ -15,7 +15,8 @@ class SelfTest1 {
 
         do {
             ch = (char) System.in.read();
-            if (ch == ' ') spaces++;
+            if (ch == ' ')
+                spaces++;
         } while (ch != '.');
 
         System.out.println("Spaces: " + spaces);

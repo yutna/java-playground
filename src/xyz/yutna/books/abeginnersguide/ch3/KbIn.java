@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Read a character from the keyboard.
-class KbIn {
+public class KbIn {
     public static void main(String[] args) throws java.io.IOException {
         char ch;
 

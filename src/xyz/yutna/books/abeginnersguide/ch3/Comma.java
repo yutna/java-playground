@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Use commas in a for statement
-class Comma {
+public class Comma {
     public static void main(String[] args) {
         int i, j;
 

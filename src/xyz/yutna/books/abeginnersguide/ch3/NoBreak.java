@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Demonstrate the switch without break statement.
-class NoBreak {
+public class NoBreak {
     public static void main(String[] args) {
         int i;
 

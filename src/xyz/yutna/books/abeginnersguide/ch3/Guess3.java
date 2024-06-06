@@ -1,7 +1,7 @@
 package xyz.yutna.books.abeginnersguide.ch3;
 
 // Guess the letter game, 3rd version
-class Guess3 {
+public class Guess3 {
     public static void main(String[] args) throws java.io.IOException {
         char ch, answer = 'K';
 
@@ -10,11 +10,15 @@ class Guess3 {
 
         ch = (char) System.in.read();
 
-        if (ch == answer) System.out.println("*** RIGHT ***");
+        if (ch == answer)
+            System.out.println("*** RIGHT ***");
         else {
             System.out.print("...Sorry, you are ");
-            if (ch < answer) System.out.println("too low");
-            else System.out.println("too high");
+
+            if (ch < answer)
+                System.out.println("too low");
+            else
+                System.out.println("too high");
         }
     }
 }
