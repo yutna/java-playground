@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+Dir.glob('**/*.class').each do |file|
+  File.delete(file)
+  puts "Deleted: #{file}"
+end

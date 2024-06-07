@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+def compile(folders = [])
+  folders.each do |folder|
+    subdirectories = Dir.glob("#{folder}/**/*/").select do |file|
+      File.directory?(file)
+    end
+
+    subdirectories.each do |subdir|
+      Dir.chdir(subdir) do
+        system("javac *.java")
+        unless $?.success?
+          puts "Failed to compile #{Dir.pwd}"
+          return false
+        end
+      end
+    end
+  end
+
+  true
+end
+
+done = compile(['beginners-guide'])
+puts "All Java files compiled successfully." if done
