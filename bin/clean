@@ -1,6 +1,10 @@
 #!/usr/bin/env ruby
 
+sum = 0
 Dir.glob('**/*.class').each do |file|
   File.delete(file)
   puts "Deleted: #{file}"
+  sum += 1
 end
+
+puts "Total deleted files: #{sum}"
