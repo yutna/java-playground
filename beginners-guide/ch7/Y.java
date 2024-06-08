@@ -1,4 +1,4 @@
-class Y extends X {
+class Y {
     int a;
 
     Y(int i) {

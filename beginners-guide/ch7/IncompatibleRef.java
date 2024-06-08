@@ -6,5 +6,8 @@ class IncompatibleRef {
 
         x2 = x; // OK, both the same type
         // x2 = y; // Error, not of same type
+
+        System.out.println(x2.a);
+        System.out.println(y.a);
     }
 }

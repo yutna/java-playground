@@ -1,7 +1,7 @@
 class X {
     int a;
 
-    x(int i) {
+    X(int i) {
         a = i;
     }
 }
