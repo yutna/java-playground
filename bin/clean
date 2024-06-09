@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 sum = 0
-Dir.glob('**/*.class').each do |file|
+Dir.glob('src/**/*.class').each do |file|
   File.delete(file)
   puts "Deleted: #{file}"
   sum += 1
