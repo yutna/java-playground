@@ -1,24 +1,42 @@
 #!/usr/bin/env ruby
 
-def compile(folders = [])
-  folders.each do |folder|
-    subdirectories = Dir.glob("#{folder}/**/*/").select do |file|
-      File.directory?(file)
-    end
+class Java
+  attr_accessor :folders, :sum
 
-    subdirectories.each do |subdir|
-      Dir.chdir(subdir) do
-        system("javac *.java")
-        unless $?.success?
-          puts "Failed to compile #{Dir.pwd}"
-          return false
-        end
-      end
+  def self.compile
+    compiler = Java.new
+
+    if compiler.execute
+      puts "All Java files compiled successfully."
+      puts "Total compiled files: #{compiler.sum}"
+    else
+      puts "Compilation failed."
     end
   end
 
-  true
+  def initialize
+    @folders = ['beginners-guide']
+    @sum = 0
+  end
+
+  def execute
+    @folders.each do |folder|
+      subdirectories = Dir.glob("#{folder}/**/*/").select { |file| File.directory?(file) }
+      subdirectories.each do |subdir|
+        Dir.chdir(subdir) do
+          java_files = Dir.glob('*.java')
+          @sum += java_files.size
+
+          unless system("javac *.java")
+            puts "Failed to compile in directory: #{Dir.pwd}"
+            return false
+          end
+        end
+      end
+    end
+
+    true
+  end
 end
 
-done = compile(['beginners-guide'])
-puts "All Java files compiled successfully." if done
+Java.compile
