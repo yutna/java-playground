@@ -3,8 +3,8 @@
 class Java
   attr_accessor :folders, :sum
 
-  def self.compile
-    compiler = Java.new
+  def self.compile(folders = [])
+    compiler = Java.new(folders)
 
     if compiler.execute
       puts "All Java files compiled successfully."
@@ -14,8 +14,8 @@ class Java
     end
   end
 
-  def initialize
-    @folders = ['beginners-guide']
+  def initialize(folders)
+    @folders = folders
     @sum = 0
   end
 
@@ -39,4 +39,6 @@ class Java
   end
 end
 
-Java.compile
+Java.compile([
+  'beginners-guide'
+])
