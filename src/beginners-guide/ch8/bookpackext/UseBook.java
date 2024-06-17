@@ -1,6 +1,8 @@
-package bookpack;
+package bookpackext;
 
-class BookDemo {
+import bookpack.Book;
+
+class UseBook {
     public static void main(String[] args) {
         Book[] books = new Book[5];
 
@@ -10,7 +12,7 @@ class BookDemo {
         books[3] = new Book("Red Storm Rising", "Clancy", 1986);
         books[4] = new Book("On the Road", "Kerouac", 1955);
 
-        for (int i = 0; i < books.length; i++)
-            books[i].show();
+        for (Book book : books)
+            book.show();
     }
 }
