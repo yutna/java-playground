@@ -25,7 +25,7 @@ completed, taken from these books.
 1. [Java: A Beginner's Guide, Tenth Edition][3]
 2. [Java: The Complete Reference, Thirteenth Edition][4]
 
-[0]: https://www.oracle.com/java/technologies/downloads/#java21
+[0]: https://adoptium.net
 [1]: https://code.visualstudio.com/docs/java/java-tutorial
 [2]: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 [3]: https://www.mhprofessional.com/java-a-beginner-s-guide-tenth-edition-9781265054632-usa
