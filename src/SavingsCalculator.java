@@ -2,8 +2,8 @@ import java.text.DecimalFormat;
 
 public class SavingsCalculator {
     public static void main(String[] args) {
-        double salary = 80_000.0; // เงินเดือน
-        double savingRate = 40.0 / 100.0; // จะเก็บกี่ % ต่อเดือน
+        double salary = 40_000.0; // เงินเดือน
+        double savingRate = 20.0 / 100.0; // จะเก็บกี่ % ต่อเดือน
         double P = salary * savingRate * 12; // เงินฝากต่อปี
         double r = 0.75 / 100.0; // อัตราดอกเบี้ยต่อปี
         double inflationRate = 2.5 / 100.0; // อัตราเงินเฟ้อต่อปี

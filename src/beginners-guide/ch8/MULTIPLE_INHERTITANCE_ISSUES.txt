@@ -1,0 +1,30 @@
+Multiple Inheritance Issues
+
+ในการณีถ้าเรามี interface Alpha and Beta
+และทั้งคู่มี default method ชื่อ reset() ซึ่งเป็นชื่อซ้ำกัน
+
+คำถามคือ Java จะจัดการเรื่องนี้ยังไง?
+
+เราสามารถแยกเป็นกรณีได้ 3 กรณีดั้งนี้
+
+1. เรามีคลาสชื่อ MyClass และทำการ implements ทั้ง Alpha และ Beta
+ตัว MyClass ได้ทำการ override reset() method ทำให้มี reset() method ใน version ของตัวเอง
+เวลาเราเรียก reset() ตัว Java จะใช้ reset() ของ MyClass เป็นหลัก
+
+2. เรามีคลาสชื่อ MyClass และทำการ implements ทั้ง Alpha และ Beta
+แต่ตัว MyClass **ไม่ได้** ทำการ override reset() method
+เวลาเราเรียก reset() ตัว Java จะดีด error ออกมาให้
+
+3. ในกรณีที่ Interface มัน inherite กัน เช่น Beta extends Alpha
+ดังนั้น เวลาเราเรียก reset() method มันจะเรียกของ Beta เป็นหลัก
+ในกรณีที่ เราต้องการเรียก ของ Alpha ให้เราใช้ super ในรูป form นี้
+
+```
+interfaceName.super.methodName()
+```
+
+เช่น
+
+Alpha.super.reset()
+
+นั่นเอง
