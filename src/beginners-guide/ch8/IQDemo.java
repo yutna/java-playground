@@ -1,3 +1,8 @@
+import qpack.CircularQueue;
+import qpack.DynQueue;
+import qpack.FixedQueue;
+import qpack.ICharQ;
+
 class IQDemo {
     public static void main(String[] args) {
         FixedQueue q1 = new FixedQueue(10);

@@ -1,10 +1,12 @@
-// A dynamic queue
-class DynQueue implements ICharQ {
+package qpack;
+
+// A fixed-size queue class for characters.
+public class FixedQueue implements ICharQ {
     private char[] q; // this array holds the queue
     private int putLocation, getLocation; // the put and get indices
 
     // Construct an empty queue given its size.
-    public DynQueue(int size) {
+    public FixedQueue(int size) {
         q = new char[size]; // allocate memory for queue
         putLocation = getLocation = 0;
     }
@@ -12,25 +14,17 @@ class DynQueue implements ICharQ {
     // Put a character into the queue.
     public void put(char ch) {
         if (putLocation == q.length) {
-            // increase queue size
-            char[] t = new char[q.length * 2];
-
-            // copy elements into new queue
-            for (int i = 0; i < q.length; i++) {
-                t[i] = q[i];
-            }
-
-            q = t;
+            System.out.println(" -- Queue is full.");
+            return;
         }
 
         q[putLocation++] = ch;
     }
 
-    // Get a character from the queue.
+    // Get a character from this queue
     public char get() {
         if (getLocation == putLocation) {
             System.out.println(" -- Queue is empty.");
-            return (char) 0;
         }
 
         return q[getLocation++];
