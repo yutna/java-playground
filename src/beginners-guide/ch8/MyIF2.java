@@ -2,7 +2,7 @@
  * Use Static Methods in an Interface
  *
  * NOTE - A static method defined by an interface can be called independently of any object.
- * (Like statis methods in a class), Thus, no implementation of the interface is necessary,
+ * (Like static methods in a class), Thus, no implementation of the interface is necessary,
  * and no instance of the interface is required in order to call a static method. Instead,
  * a static method is called by specifying the interface name, followed by a period, followed by
  * the method name. Here is the general form
